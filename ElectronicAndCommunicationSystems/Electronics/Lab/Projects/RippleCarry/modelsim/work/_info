@@ -1,0 +1,135 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects
+Eadder_nbit
+Z0 w1791148204
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 57
+Z3 d/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/modelsim
+Z4 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd
+Z5 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd
+l0
+L5 1
+VBK0BgbhNjS<ilmlolDQ8U1
+!s100 UFjmAc=T]i7EVg>:02l<[1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791148227
+!i10b 1
+Z8 !s108 1791148227.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd|
+Z10 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+Z13 DEx4 work 10 adder_nbit 0 22 BK0BgbhNjS<ilmlolDQ8U1
+!i122 57
+l29
+Z14 L16 45
+Z15 VgSPmh7LJh[=d697W:eOj22
+Z16 !s100 0R?3?0K1bo<oCW;fkL0B<0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efull_adder
+Z17 w1791147211
+R1
+R2
+!i122 56
+R3
+Z18 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
+Z19 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
+l0
+L4 1
+VG>jeE2SWm>X@RzYzS70T[2
+!s100 jKUh[P>N83[O]V7E]k[6H3
+R6
+32
+R7
+!i10b 1
+R8
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
+Z21 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 10 full_adder 0 22 G>jeE2SWm>X@RzYzS70T[2
+!i122 56
+l15
+Z22 L14 5
+V]:^>ShBc4IV>[0;H`[Qek0
+!s100 7h:EmzW9lKndnMCfVS_KH3
+R6
+32
+R7
+!i10b 1
+R8
+R20
+R21
+!i113 1
+R11
+R12
+Efulladder
+w1790957236
+R1
+R2
+!i122 0
+R3
+R18
+R19
+l0
+L4 1
+VVEDgV:Zo^Gz7f_7NCTk<e0
+!s100 kO]V^P]_aMlR[LgE2_@:h3
+R6
+32
+!s110 1790957276
+!i10b 1
+!s108 1790957276.000000
+R20
+R21
+!i113 1
+R11
+R12
+Adataflow
+w1790957585
+R1
+R2
+DEx4 work 9 fulladder 0 22 VEDgV:Zo^Gz7f_7NCTk<e0
+!i122 1
+l15
+R22
+VTV@3_De=cjW>^@`2O=9ne0
+!s100 NEQecGcoOM^LRl2SF7Nn43
+R6
+32
+!s110 1790957599
+!i10b 1
+!s108 1790957599.000000
+R20
+R21
+!i113 1
+R11
+R12
