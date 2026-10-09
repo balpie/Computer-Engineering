@@ -1,0 +1,37 @@
+# Loading project d_flip_flop_n
+# reading /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/.env/modelsim_ase/linuxaloem/../modelsim.ini
+# reading modelsim.ini
+# Loading project RippleCarryAdder
+# Compile of full_adder.vhd was successful.
+# Compile of ripple_carry.vhd was successful.
+# Compile of test_bench.vhdl failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of test_bench.vhdl failed with 1 errors.
+# Compile of test_bench.vhdl was successful.
+vsim work.ripple_carry_adder_tb(beh)
+# vsim work.ripple_carry_adder_tb(beh) 
+# Start time: 15:51:32 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ripple_carry_adder_tb(beh)
+# ** Warning: (vsim-3473) Component instance "i_DUT : ripple_carry_adder" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_carry_adder_tb File: /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/tb/test_bench.vhdl
+add wave -position insertpoint  \
+sim:/ripple_carry_adder_tb/clk \
+sim:/ripple_carry_adder_tb/a_ext \
+sim:/ripple_carry_adder_tb/b_ext \
+sim:/ripple_carry_adder_tb/cin_ext \
+sim:/ripple_carry_adder_tb/s_ext \
+sim:/ripple_carry_adder_tb/cout_ext \
+sim:/ripple_carry_adder_tb/testing \
+sim:/ripple_carry_adder_tb/clk_period \
+sim:/ripple_carry_adder_tb/N
+run -all
+# Compile of full_adder.vhd was successful.
+# Compile of ripple_carry.vhd was successful.
+# Compile of test_bench.vhdl was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 16:02:19 on Oct 08,2026, Elapsed time: 0:10:47
+# Errors: 0, Warnings: 8

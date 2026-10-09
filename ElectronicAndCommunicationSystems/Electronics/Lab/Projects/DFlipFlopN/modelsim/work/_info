@@ -1,0 +1,198 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects
+Eadder_nbit
+Z0 w1791148204
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 57
+Z3 d/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/modelsim
+Z4 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd
+Z5 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd
+l0
+L5 1
+VBK0BgbhNjS<ilmlolDQ8U1
+!s100 UFjmAc=T]i7EVg>:02l<[1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1791148227
+!i10b 1
+Z8 !s108 1791148227.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd|
+Z10 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+DEx4 work 10 adder_nbit 0 22 BK0BgbhNjS<ilmlolDQ8U1
+!i122 57
+l29
+L16 45
+VgSPmh7LJh[=d697W:eOj22
+!s100 0R?3?0K1bo<oCW;fkL0B<0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ed_flipflop
+w1791465474
+R1
+R2
+!i122 73
+Z13 d/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/modelsim
+8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_flipflop.vhdl
+F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_flipflop.vhdl
+l0
+L5 1
+ViCOgUm0_S?DfRibF5Em3W2
+!s100 @JLU]>Tl0YfU71OZTZ=9c2
+R6
+32
+!s110 1791465478
+!i10b 1
+!s108 1791465478.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_flipflop.vhdl|
+!s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_flipflop.vhdl|
+!i113 1
+R11
+R12
+Ed_latch
+Z14 w1791462670
+R1
+R2
+!i122 64
+R13
+Z15 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_latch.vhdl
+Z16 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_latch.vhdl
+l0
+L4 1
+VNYXBdg8X]@FID8SYG8ODD1
+!s100 k=L6=_7flSOe<dkDE7AaL0
+R6
+32
+Z17 !s110 1791462689
+!i10b 1
+Z18 !s108 1791462689.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_latch.vhdl|
+Z20 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_latch.vhdl|
+!i113 1
+R11
+R12
+Adlatch
+R1
+R2
+DEx4 work 7 d_latch 0 22 NYXBdg8X]@FID8SYG8ODD1
+!i122 64
+l17
+L16 13
+VSFKSbbm59KgoI0Ae7;i702
+!s100 ;hQzzYjTl6JDcOM1@5L[H3
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Efull_adder
+Z21 w1791147211
+R1
+R2
+!i122 56
+R3
+Z22 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
+Z23 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
+l0
+L4 1
+VG>jeE2SWm>X@RzYzS70T[2
+!s100 jKUh[P>N83[O]V7E]k[6H3
+R6
+32
+R7
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
+Z25 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 10 full_adder 0 22 G>jeE2SWm>X@RzYzS70T[2
+!i122 56
+l15
+Z26 L14 5
+V]:^>ShBc4IV>[0;H`[Qek0
+!s100 7h:EmzW9lKndnMCfVS_KH3
+R6
+32
+R7
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Efulladder
+w1790957236
+R1
+R2
+!i122 0
+R3
+R22
+R23
+l0
+L4 1
+VVEDgV:Zo^Gz7f_7NCTk<e0
+!s100 kO]V^P]_aMlR[LgE2_@:h3
+R6
+32
+!s110 1790957276
+!i10b 1
+!s108 1790957276.000000
+R24
+R25
+!i113 1
+R11
+R12
+Adataflow
+w1790957585
+R1
+R2
+DEx4 work 9 fulladder 0 22 VEDgV:Zo^Gz7f_7NCTk<e0
+!i122 1
+l15
+R26
+VTV@3_De=cjW>^@`2O=9ne0
+!s100 NEQecGcoOM^LRl2SF7Nn43
+R6
+32
+!s110 1790957599
+!i10b 1
+!s108 1790957599.000000
+R24
+R25
+!i113 1
+R11
+R12

@@ -1,93 +1,103 @@
-# reading modelsim.ini
 # Loading project RippleCarryAdder
+# Compile of test_bench.vhdl was successful.
+# Compile of adder_Nbit.vhd was successful.
 # Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 1 errors.
-# 2 compiles, 1 failed with 1 error.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of test_bench.vhdl was successful.
+# Compile of adder_Nbit.vhd was successful.
 # Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 5 errors.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 19 errors.
-# 2 compiles, 1 failed with 19 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 18 errors.
-# 2 compiles, 1 failed with 18 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 18 errors.
-# 2 compiles, 1 failed with 18 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 19 errors.
-# 2 compiles, 1 failed with 19 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 5 errors.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 4 errors.
-# 2 compiles, 1 failed with 4 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 1 errors.
-# 2 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 5 errors.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 5 errors.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 1 errors.
-# 2 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 3 errors.
-# 2 compiles, 1 failed with 3 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 5 errors.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 4 errors.
-# 2 compiles, 1 failed with 4 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 4 errors.
-# 2 compiles, 1 failed with 4 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 4 errors.
-# 2 compiles, 1 failed with 4 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 4 errors.
-# 2 compiles, 1 failed with 4 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 3 errors.
-# 2 compiles, 1 failed with 3 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 5 errors.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-clear
-# [H[2J[3J
-clc
-# invalid command name "clc"
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of full_adder.vhd was successful.
-# Compile of ripple_carry.vhd was successful.
-# 2 compiles, 0 failed with no errors.
+# 3 compiles, 0 failed with no errors.
+vsim work.test_bench(test_bench)
+# vsim work.test_bench(test_bench) 
+# Start time: 16:23:36 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_bench(test_bench)
+# Loading work.adder_nbit(structural)
+# Loading work.full_adder(dataflow)
+vsim work.test_bench
+# End time: 16:24:09 on Oct 08,2026, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 3
+# vsim work.test_bench 
+# Start time: 16:24:09 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_bench(test_bench)
+# Loading work.adder_nbit(structural)
+# Loading work.full_adder(dataflow)
+vsim work.test_bench
+# End time: 16:25:42 on Oct 08,2026, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 1
+# vsim work.test_bench 
+# Start time: 16:25:42 on Oct 08,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_bench(test_bench)
+# Loading work.adder_nbit(structural)
+# Loading work.full_adder(dataflow)
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# End time: 16:26:23 on Oct 08,2026, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 1

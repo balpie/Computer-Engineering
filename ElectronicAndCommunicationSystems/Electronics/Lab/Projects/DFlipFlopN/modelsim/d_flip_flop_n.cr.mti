@@ -1,0 +1,10 @@
+/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_flipflop.vhdl {0 {vcom -work work -2002 -explicit -stats=none /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_flipflop.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_flipflop
+-- Compiling architecture DFF of d_flipflop
+** Error: /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/DFlipFlopN/src/d_flipflop.vhdl(34): near "port": syntax error
+
+} {8.0 9.0} {}}

@@ -8,38 +8,38 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-d/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects
+d/home/citrus97
 Eadder_nbit
-Z0 w1791148204
+Z0 w1791469046
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 57
+!i122 7
 Z3 d/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/modelsim
-Z4 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd
-Z5 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd
+Z4 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/adder_Nbit.vhd
+Z5 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/adder_Nbit.vhd
 l0
 L5 1
 VBK0BgbhNjS<ilmlolDQ8U1
 !s100 UFjmAc=T]i7EVg>:02l<[1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1791148227
+Z7 !s110 1791469401
 !i10b 1
-Z8 !s108 1791148227.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd|
-Z10 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/ripple_carry.vhd|
+Z8 !s108 1791469401.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/adder_Nbit.vhd|
+Z10 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/adder_Nbit.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
 Astructural
 R1
 R2
-Z13 DEx4 work 10 adder_nbit 0 22 BK0BgbhNjS<ilmlolDQ8U1
-!i122 57
+DEx4 work 10 adder_nbit 0 22 BK0BgbhNjS<ilmlolDQ8U1
+!i122 7
 l29
-Z14 L16 45
-Z15 VgSPmh7LJh[=d697W:eOj22
-Z16 !s100 0R?3?0K1bo<oCW;fkL0B<0
+L16 45
+VdjzWnGWe5TTdC2L2m<TJf0
+!s100 abTAHN4MaHLbWj_Iz6d^X0
 R6
 32
 R7
@@ -51,13 +51,13 @@ R10
 R11
 R12
 Efull_adder
-Z17 w1791147211
+Z13 w1791468083
 R1
 R2
-!i122 56
+!i122 8
 R3
-Z18 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
-Z19 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
+Z14 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
+Z15 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd
 l0
 L4 1
 VG>jeE2SWm>X@RzYzS70T[2
@@ -67,69 +67,113 @@ R6
 R7
 !i10b 1
 R8
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
-Z21 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
+Z17 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/src/full_adder.vhd|
 !i113 1
 R11
 R12
 Adataflow
 R1
 R2
-DEx4 work 10 full_adder 0 22 G>jeE2SWm>X@RzYzS70T[2
-!i122 56
+Z18 DEx4 work 10 full_adder 0 22 G>jeE2SWm>X@RzYzS70T[2
+!i122 8
 l15
-Z22 L14 5
-V]:^>ShBc4IV>[0;H`[Qek0
-!s100 7h:EmzW9lKndnMCfVS_KH3
+Z19 L14 5
+Z20 V]:^>ShBc4IV>[0;H`[Qek0
+Z21 !s100 7h:EmzW9lKndnMCfVS_KH3
 R6
 32
 R7
 !i10b 1
 R8
-R20
-R21
+R16
+R17
 !i113 1
 R11
 R12
-Efulladder
-w1790957236
+Eripple_carry_adder_tb
+R0
+Z22 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R1
 R2
 !i122 0
 R3
-R18
-R19
+Z23 8/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/tb/test_bench.vhdl
+Z24 F/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/tb/test_bench.vhdl
 l0
-L4 1
-VVEDgV:Zo^Gz7f_7NCTk<e0
-!s100 kO]V^P]_aMlR[LgE2_@:h3
+L5 1
+V5NbkCgM[JQPFMGSleT=l;0
+!s100 ^AdCADKWhQX8BkaE=KM?>3
 R6
 32
-!s110 1790957276
+Z25 !s110 1791469290
 !i10b 1
-!s108 1790957276.000000
-R20
-R21
+Z26 !s108 1791469290.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/tb/test_bench.vhdl|
+Z28 !s107 /home/citrus97/Universita/ElectronicAndCommunicationSystems/Electronics/Lab/Projects/RippleCarry/tb/test_bench.vhdl|
 !i113 1
 R11
 R12
-Adataflow
-w1790957585
+Atest_bench
+R22
 R1
 R2
-DEx4 work 9 fulladder 0 22 VEDgV:Zo^Gz7f_7NCTk<e0
-!i122 1
-l15
-R22
-VTV@3_De=cjW>^@`2O=9ne0
-!s100 NEQecGcoOM^LRl2SF7Nn43
+DEx4 work 21 ripple_carry_adder_tb 0 22 5NbkCgM[JQPFMGSleT=l;0
+!i122 0
+l34
+Z29 L9 63
+V5Y<Xen0S>H1@[9do?GYQi0
+!s100 ULLDF0YSe9cA_7B8hRO?L1
 R6
 32
-!s110 1790957599
+R25
 !i10b 1
-!s108 1790957599.000000
-R20
-R21
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Etest_bench
+Z30 w1791469374
+R22
+R1
+R2
+!i122 6
+R3
+R23
+R24
+l0
+L5 1
+VJ@hHMYKOAnC26GRO>hNmh0
+!s100 h]Bo^BhB02Z0^bZYQJ>R`1
+R6
+32
+R7
+!i10b 1
+Z31 !s108 1791469400.000000
+R27
+R28
+!i113 1
+R11
+R12
+Atest_bench
+R22
+R1
+R2
+DEx4 work 10 test_bench 0 22 J@hHMYKOAnC26GRO>hNmh0
+!i122 6
+l34
+R29
+ViBNUkmbmGb<Lk:2Sg4M<:3
+!s100 IL:fKEfAn;6HXOFAbfh=c2
+R6
+32
+R7
+!i10b 1
+R31
+R27
+R28
 !i113 1
 R11
 R12
